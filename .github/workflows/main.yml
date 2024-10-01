@@ -17,7 +17,7 @@ jobs:
             PASSWORD: ${{ secrets.USUARIO }}
         -
             name: Set up Docker Buildx
-            uses: docker/setup-buildx-action@v3
+            uses: docker/setup-build-action@v3
         -
             name: biuld and push
             uses: docker/build-push-action@v6
