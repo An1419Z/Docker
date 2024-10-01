@@ -9,4 +9,4 @@ FROM php:8.2-apache
 
 # Exponer el puerto 80
 
-EXPOSE 80
+EXPOSE 80
